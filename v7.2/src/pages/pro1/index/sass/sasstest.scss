@@ -1,0 +1,16 @@
+body{
+  &::before{
+    content: '我来自sass';
+    color: #fff;
+  }
+  color: #fff;
+  background: url('../images/img1.jpg');
+
+  img{
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+  }
+}

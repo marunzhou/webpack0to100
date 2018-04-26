@@ -1,0 +1,42 @@
+{
+  "name": "webpack0-100",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-pro1": "cross-env PACKAGE_ENV=pro1 MODEL_ENV=dev webpack-dev-server --config ./build/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.2",
+    "css-loader": "^0.28.11",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "glob": "^7.1.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.8.3",
+    "ora": "^2.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^2.1.3",
+    "postcss-px-to-viewport": "0.0.3",
+    "postcss-viewport-units": "^0.1.4",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.2",
+    "webpack-merge": "^4.1.2"
+  }
+}
