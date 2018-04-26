@@ -340,5 +340,5 @@ library的说明，是为npm安装类提供方便快捷的调用方式，具体�
 
 
 参考文档：
-http://www.css88.com/doc/webpack/guides/author-libraries/
-https://doc.webpack-china.org
+<p>http://www.css88.com/doc/webpack/guides/author-libraries/</p>
+<p>https://doc.webpack-china.org</p>
